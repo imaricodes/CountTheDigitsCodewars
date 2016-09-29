@@ -1,0 +1,6 @@
+c:\users\mre8air\Documents\Visual Studio 2015\Projects\junk\junk\bin\Debug\junk.exe.config
+c:\users\mre8air\Documents\Visual Studio 2015\Projects\junk\junk\bin\Debug\junk.exe
+c:\users\mre8air\Documents\Visual Studio 2015\Projects\junk\junk\bin\Debug\junk.pdb
+c:\users\mre8air\Documents\Visual Studio 2015\Projects\junk\junk\obj\Debug\junk.csprojResolveAssemblyReference.cache
+c:\users\mre8air\Documents\Visual Studio 2015\Projects\junk\junk\obj\Debug\junk.exe
+c:\users\mre8air\Documents\Visual Studio 2015\Projects\junk\junk\obj\Debug\junk.pdb

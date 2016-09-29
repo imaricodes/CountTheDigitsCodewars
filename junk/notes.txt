@@ -1,0 +1,9 @@
+﻿Solution to CodeWars.com Kata Count The Digit
+
+Helpful sites:
+
+https://www.dotnetperls.com/integer-digit-count | C# Integer Digit Count
+https://www.dotnetperls.com/char-isdigit | C# char.IsDigit Method, Test Number Chars
+http://stackoverflow.com/questions/1613317/fastest-way-to-separate-the-digits-of-an-int-into-an-array-in-net | c# - Fastest way to separate the digits of an int into an array in .NET? - Stack Overflow
+http://stackoverflow.com/questions/16265247/printing-all-contents-of-array-in-c-sharp | printing all contents of array in C# - Stack Overflow
+https://msdn.microsoft.com/en-us/library/36x43w8w.aspx | ++ Operator (C# Reference)
