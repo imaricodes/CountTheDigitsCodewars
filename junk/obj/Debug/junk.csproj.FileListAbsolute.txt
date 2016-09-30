@@ -4,3 +4,9 @@ c:\users\mre8air\Documents\Visual Studio 2015\Projects\junk\junk\bin\Debug\junk.
 c:\users\mre8air\Documents\Visual Studio 2015\Projects\junk\junk\obj\Debug\junk.csprojResolveAssemblyReference.cache
 c:\users\mre8air\Documents\Visual Studio 2015\Projects\junk\junk\obj\Debug\junk.exe
 c:\users\mre8air\Documents\Visual Studio 2015\Projects\junk\junk\obj\Debug\junk.pdb
+C:\Users\MRE\Documents\Visual Studio 2015\Projects\CountTheDigitsCodewars\junk\bin\Debug\junk.exe.config
+C:\Users\MRE\Documents\Visual Studio 2015\Projects\CountTheDigitsCodewars\junk\bin\Debug\junk.exe
+C:\Users\MRE\Documents\Visual Studio 2015\Projects\CountTheDigitsCodewars\junk\bin\Debug\junk.pdb
+C:\Users\MRE\Documents\Visual Studio 2015\Projects\CountTheDigitsCodewars\junk\obj\Debug\junk.csprojResolveAssemblyReference.cache
+C:\Users\MRE\Documents\Visual Studio 2015\Projects\CountTheDigitsCodewars\junk\obj\Debug\junk.exe
+C:\Users\MRE\Documents\Visual Studio 2015\Projects\CountTheDigitsCodewars\junk\obj\Debug\junk.pdb

@@ -12,92 +12,65 @@ namespace junk
       
 
 
-        public static int[] ConvertToArrayOfDigits(int value)
+        public static int ConvertToArrayOfSquaredDigits(int n, int d)
         {
            
-            int n = 4;
-            int d = 1;
-
-            //count and square, assign to array
-            int[] squaredArray = new int[n + 1];
+            //count and square, convert to string, assign to string array
+            string [] squaredArray = new string[n + 1];
             int count2 = 0;
             for (int i = 0; i < n + 1; i++)
             {
-                //create array of 0 - n 
-                squaredArray[i] =  count2 * count2;
+                //create array of 0 - n
+                string result = (count2 * count2).ToString(); 
+                squaredArray[i] =  result;
                 count2++;
             }
             
-            //determine how long next array needs to be by 'counting' all digit in square array elements
-            int count3 = 0;
+            //create charList that will contain chars parsed from  squaredArray[] string elements
+            List<char> charList = new List<char>();
+
             for (int i = 0; i < squaredArray.Length; i++)
-            {
-                count3 = count3 + squaredArray[i].ToString().Length;
+            { 
+                //split squaredArray sting elements into chars[]
+                var chars = squaredArray[i].ToCharArray();
+
+                //loop through chars[], adding each char element to charList<>
+                foreach (var item in chars)
+                {
+                    charList.Add(item);
+                }
             }
 
+            //intitialize counter for recording how many times d (passed in as argument) occurs in charList<> 
+            int targetDigitCounter = 0;
 
-
-            Console.WriteLine("There are {0} digits in the set after each item in set is squared",count3);
-            int size2 = count3;
-
-            //create array to split squared array values into. Length of this array is size2 = count3
-
-
-
-
-            Console.ReadKey();
-
-            int targetDigitCount = 0;
-            
-            //how many digits in value assigned to int size
-            //int size = DetermineDigitCount(value);
-
-            //array created length of int size.. this will hold all separated digits
-            int[] digits = new int[size2];
-
-            //sequentially assign each digit of value to digits[ ]
-            for (int index = 0; index < size2; index++)
+            //loop over charList<> and compare each element to d
+            for (int i = 0; i < charList.Count; i++)
             {
-                digits[index] = squaredArray[index] % 10;
-                squaredArray[index] = squaredArray[index] / 10;
-
-                //count number of times d occurs in digits[]
-                if (digits[index] == d)
+                if (charList[i].ToString() == d.ToString())
                 {
-                    targetDigitCount++;
+                    targetDigitCounter++;
+                    Console.WriteLine("Current Target Digit Count: " + targetDigitCounter);
                 }
 
             }
-    
 
           
 
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine(" d occurs {0} times", targetDigitCount);
-            return digits;
+            return targetDigitCounter;
+            
         }
 
-        private static int DetermineDigitCount(int x)
-        {
-            // This bit could be optimised with a binary search
-            return x < 10 ? 1
-                 : x < 100 ? 2
-                 : x < 1000 ? 3
-                 : x < 10000 ? 4
-                 : x < 100000 ? 5
-                 : x < 1000000 ? 6
-                 : x < 10000000 ? 7
-                 : x < 100000000 ? 8
-                 : x < 1000000000 ? 9
-                 : 10;
-        }
 
         static void Main(string[] args)
         {
-            ConvertToArrayOfDigits(34445444);
+            int d = 6;
+            int result = ConvertToArrayOfSquaredDigits(5,d);
 
+            Console.WriteLine("d is: " + d);
+            Console.WriteLine(" d occurs {0} times in the set", result);
             Console.ReadKey();
         }
+
     }
 }
