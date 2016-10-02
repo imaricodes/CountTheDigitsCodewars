@@ -7,3 +7,7 @@ https://www.dotnetperls.com/char-isdigit | C# char.IsDigit Method, Test Number C
 http://stackoverflow.com/questions/1613317/fastest-way-to-separate-the-digits-of-an-int-into-an-array-in-net | c# - Fastest way to separate the digits of an int into an array in .NET? - Stack Overflow
 http://stackoverflow.com/questions/16265247/printing-all-contents-of-array-in-c-sharp | printing all contents of array in C# - Stack Overflow
 https://msdn.microsoft.com/en-us/library/36x43w8w.aspx | ++ Operator (C# Reference)
+
+What did I learn from this?
+
+I used tools I already knew, but after looking at solutions, I am reminded that the Enumberable type and Linq would have been useful and would have made for cleaner code. These are on my list, for sure!
